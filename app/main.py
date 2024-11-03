@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, File
 from app.models import URLRequest, PDFRequest, ChatRequest, ChatResponse
-from app.scraping import scrape_url
+from app.url_processing import scrape_url
 from app.pdf_processing import extract_text_from_pdf
 from app.chat import store_chat_content, get_relevant_response
 from app.database import generate_chat_id

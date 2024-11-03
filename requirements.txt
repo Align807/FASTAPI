@@ -5,3 +5,5 @@ requests
 PyMuPDF
 gunicorn
 sentence-transformers
+transformers
+python-multipart
